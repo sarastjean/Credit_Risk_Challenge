@@ -2,7 +2,7 @@
 
 ### Model Results
 
-For Oversampling, I ran two analysis. For Naive Random Oversampling, the dataset is resampled so we can train a model, make predictions, and evaluate the performance. The balanced accuracy score for this model was 68%. However, this number can be misleading. Examining the classification report, the average precision score is 99%, an average recall score of 63% and an F1 score of 77%.
+For Oversampling, I ran two methods of analysis. For Naive Random Oversampling, the dataset is resampled so we can train a model, make predictions, and evaluate the performance. The balanced accuracy score for this model was 68%. However, this number can be misleading. Examining the classification report, the average precision score is 99%, an average recall score of 63% and an F1 score of 77%.
 
 Using the SMOTE Overampling method, the balanced accuracy score remains the same at 68%. Per the classification report, the average precision score is 99%, recall score of 68% and F1 score of 81%.
 
